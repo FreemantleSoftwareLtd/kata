@@ -6,9 +6,8 @@ public class WordUtils {
         }
 
         // does char1 contain all characters in char 2?
-        for(int i=0; i<word.length; i++) {
-            char character = word[i];
-            if(!doesWordContainCharacter(availableLetters, character)) {
+        for (char character : word) {
+            if (!doesWordContainCharacter(availableLetters, character)) {
                 return false;
             }
         }

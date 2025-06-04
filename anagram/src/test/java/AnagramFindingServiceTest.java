@@ -14,27 +14,24 @@ class AnagramFindingServiceTest {
 
     @Test
     void test_generateTwoWordAnagramsOfString_ensureResultsOnlyUseLettersFromOriginalString() throws IOException {
-
-        Set<String> expectedOutput = Set.of("");
-
-        String input = "documenting";
-
-        AnagramFindingService anagramFindingService = new AnagramFindingService(DEFAULT_FILE_PATH);
-        Set<String> actualOutput = anagramFindingService.generateTwoWordAnagrams(input);
-
-        //    assertTrue(Arrays.asList(expectedOutput).containsAll(actualOutput));
-    }
-
-    @Test
-    void test_generateTwoWordAnagramsOfString_ensureOutputHasSameNumberOfLettersAsInput() throws IOException {
-
+      // Test TODO: This test is not implemented yet.
         String input = "documenting";
 
         AnagramFindingService anagramFindingService = new AnagramFindingService(DEFAULT_FILE_PATH);
         Set<String> actualOutput = anagramFindingService.generateTwoWordAnagrams(input);
 
         assertNotNull(actualOutput);
-        // assertEquals(input.length(), actualOutput.stream().findFirst().get().replaceAll(" ", "").length());
+    }
+
+    @Test
+    void test_generateTwoWordAnagramsOfString_ensureOutputHasSameNumberOfLettersAsInput() throws IOException {
+        // Test TODO: This test is not implemented yet.
+        String input = "documenting";
+
+        AnagramFindingService anagramFindingService = new AnagramFindingService(DEFAULT_FILE_PATH);
+        Set<String> actualOutput = anagramFindingService.generateTwoWordAnagrams(input);
+
+        assertNotNull(actualOutput);
     }
 
     @Test
