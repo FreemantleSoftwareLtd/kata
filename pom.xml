@@ -1,0 +1,10 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.freemantle-software</groupId>
+    <artifactId>kata</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>anagram</module>
+    </modules>
+</project>

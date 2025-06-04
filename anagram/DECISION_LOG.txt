@@ -1,0 +1,7 @@
+- Code still to be progressed.
+- Need to check in part.
+
+- Optimisations
+- Filter the dictionary to words that contain the given letters
+- Consider finding words by size. Map<int word length, Set<String> words>
+- Consider if it better to find all permiutations of the letters and then filter by dictionary.
