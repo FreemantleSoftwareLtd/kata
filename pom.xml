@@ -7,5 +7,6 @@
     <modules>
         <module>anagram</module>
         <module>palindrom</module>
+        <module>bubblesort</module>
     </modules>
 </project>
