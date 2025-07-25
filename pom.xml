@@ -6,5 +6,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>anagram</module>
+        <module>birthdayCakeCandles</module>
     </modules>
 </project>
